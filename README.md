@@ -1,4 +1,5 @@
-[Le pdf à télécharger](accords.pdf)
+[Le pdf à télécharger](accords.pdf) - Adresse réduite de cette page :
+[huit.re/acc](https://huit.re/acc)
 
 Les accords sont présentés dans une progression à la fois technique (les plus
 faciles à jouer au début) et théorique (les plus simples au début).
