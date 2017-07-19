@@ -9,3 +9,9 @@ avec l’accordage standard.
 
 Pour produire le pdf vous-même, vous aurez besoin d’une chaîne de compilation
 LaTeX standard et du paquet [songs](http://songs.sourceforge.net/).
+
+# Remarques et suggestions
+
+Envoyer un email à <profgra.org@gmail.com> ou
+[créer un ticket](https://github.com/Grahack/accords_guitare/issues/new)
+dans le [QG de développement de ce doc](https://github.com/Grahack/accords_guitare/).
