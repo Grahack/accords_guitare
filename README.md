@@ -41,10 +41,10 @@ dans le [QG de développement de ce doc](https://github.com/Grahack/accords_guit
         $.each(data.data, function(i, item) {
             var li = $('<li/>').appendTo(ul);
             var date = item.commit.author.date;
+            li.append(date.replace('T',' ').replace('Z',' ') + " - ");
             $("<a/>").attr("href", item.html_url)
                 .html(item.commit.message)
                 .appendTo(li);
-            li.append(", " + date.replace('T',' ').replace('Z',' '));
             if ( i === 5 ) {  // max items
                 return false;
             }
