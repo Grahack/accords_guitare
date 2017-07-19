@@ -1,6 +1,7 @@
 pdf: accords.pdf
 
 accords.pdf: accords.tex
+	latex accords.tex
 	pdflatex accords.tex
 
 view: accords.pdf
