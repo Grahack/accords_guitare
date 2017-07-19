@@ -1,9 +1,10 @@
-# Accords sur la guitare
-
 [Le pdf à télécharger](accords.pdf)
 
-Dico progressif et fourre-tout des accords que l’on peut jouer sur une guitare
-avec l’accordage standard.
+Les accords sont présentés dans une progression à la fois technique (les plus
+faciles à jouer au début) et théorique (les plus simples au début).
+
+Attention, ce n’est pas un cours de guitare, plutôt un support pour un cours
+de guitare.
 
 # Compilation
 
