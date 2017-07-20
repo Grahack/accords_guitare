@@ -3,8 +3,9 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[francais]{babel}
+\usepackage{fancyhdr}
+\usepackage{datetime} % access to \currenttime
 \usepackage{hyperref}
-\usepackage{fullpage}
 \usepackage[chorded]{songs}
 
 \setlength{\parskip}{2ex}
@@ -12,6 +13,10 @@
 \title{\vspace{-5em}Les accords de la guitare}
 \author{(accordage standard)}
 \date{} 
+
+\pagestyle{fancy}
+\fancyhead[R]{\today~-~\currenttime}
+\fancyfoot[C]{\thepage}
 
 \begin{document}
 
