@@ -40,14 +40,17 @@ dans le [QG de développement de ce doc](https://github.com/Grahack/accords_guit
         var ul = $('<ul/>').addClass('liste').appendTo(target_elt);
         $.each(data.data, function(i, item) {
             var li = $('<li/>').appendTo(ul);
+            var b = $('<b/>').appendTo(li);
             var date = item.commit.author.date;
             var cleanedDate = date.replace('T',' ').replace('Z',' ');
+            b.append(cleanedDate);
             var msg = item.commit.message;
             if (msg.slice(0, 5) === "PDF: ") {
                 msg = msg.slice(5);
             }
-            li.append(cleanedDate + " - " + msg);
-            if ( i === 5 ) {  // max items
+            li.append(b);
+            li.append(" - " + msg);
+            if ( i === 4 ) {  // max items
                 return false;
             }
         });
