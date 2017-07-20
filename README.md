@@ -42,7 +42,11 @@ dans le [QG de développement de ce doc](https://github.com/Grahack/accords_guit
             var li = $('<li/>').appendTo(ul);
             var date = item.commit.author.date;
             var cleanedDate = date.replace('T',' ').replace('Z',' ');
-            li.append(cleanedDate + " - " + item.commit.message);
+            var msg = item.commit.message;
+            if (msg.slice(0, 5) === "PDF: ") {
+                msg = msg.slice(5);
+            }
+            li.append(cleanedDate + " - " + msg);
             if ( i === 5 ) {  // max items
                 return false;
             }
